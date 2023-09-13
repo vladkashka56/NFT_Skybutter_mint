@@ -1,0 +1,15 @@
+ERC20 FOOD: 0x05969Fc7889c7Ab3d2A938e0EAF5f5E89a1992f1
+ERC721 	  : 0xb0C93Ecf3C66a900Cf6B3C690A2Ab492eaC60CD4
+
+
+To work on an ERC721 with the functions below:
+
+1. Whitelist claim function - Whitelist claim [address provided]
+
+2. Mint - Public mint and pay with (ETH or our Token)
+-Need function setEthPrice(ETH) and function setTokenPrice(Token)
+
+3. To work on dynamic tokenURI (Sample below)
+-User A minted tokenID [1] and [2] that point to [1a.json] and [2a.json]
+-User A run function Action-B with tokenID [1]
+-Now we need to set tokenID [1] tokenURI point to [1b.json] and so on for a total of six uri (1a,1b,1c,1d,1e,1f)
